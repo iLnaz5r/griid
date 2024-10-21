@@ -1,0 +1,149 @@
+body{
+    display: grid;
+    place-content: center;
+}
+h1{
+    display: grid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(241, 153, 39);
+    font-size: 70px;
+}
+
+.nav-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    justify-items: center; 
+}
+button{
+    padding: 20px 30px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    border: none;
+    width: 160px;
+    gap: -20px;
+}
+.dom{
+    background-color: rgb(140, 217, 243);
+}
+.dom2{
+    background-color: rgb(248, 134, 134)
+}
+.com{
+    background-color: rgb(61, 97, 255)
+}
+.pro{
+    background-color: rgb(255, 193, 99)
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: repeat(3,100px);
+    gap: 5px;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pink { 
+    background-color: pink;
+    border: 2px solid black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.green {
+    background-color: rgb(204, 255, 192);
+    border: 2px solid black;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.yellow {
+    background-color: rgb(255, 255, 150);
+    grid-column-start: 7;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.blue {
+    background-color: rgb(134, 164, 255);
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.red {
+    background-color: rgb(255, 44, 79);
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.orange {
+    background-color: rgb(255, 157, 37);
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.grey {
+    background-color: rgb(88, 88, 88);
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.white {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid black;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.brown {
+    background-color: rgb(80, 47, 30);
+    color:white;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.beige {
+    background-color: rgb(255, 224, 161);
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.purple {
+    background-color: #f478ff;
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+.gold {
+    background-color: rgb(255, 227, 67);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 20;
+}
+.silver {
+    background-color: rgb(175, 175, 175);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 20;
+}
